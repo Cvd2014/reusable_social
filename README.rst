@@ -3,7 +3,7 @@ Social-Auth is a reusable authorization app for Django
 Detailed documentation is in the "docs" directory.
 Quick start -----------
 1. Add "reusable_auth" to your INSTALLED_APPS setting like this::
-    INSTALLED_APPS = (         ...         'reusable_social_auth',     )
+    INSTALLED_APPS = (         ...         'reusable_social_auth','social.apps.django_app.default'     )
 
 
 2. Add these  settings to your projects settings.py:
@@ -59,4 +59,4 @@ SOCIAL_AUTH_TWITTER_SECRET=<Your Key here>
 4. Run `python manage.py migrate`.
 
 
-5. Visit http://127.0.0.1:8000/blogs/ to view the blogs you create
+5. Visit http://test1.com:8000 to view the login page you create
